@@ -151,7 +151,7 @@ WHERE MABM IN(SELECT MABM
 
 SELECT *
 FROM GIAOVIEN 
-WHERE MAGV NOT IN( SELECT MAGV 
+WHERE MAGV NOT IN (SELECT MAGV 
                     FROM THAMGIADT)
 
 /* Q46: Cho biết những giáo viên có lương lớn hơn lương cuả giáo viên Nguyễn Hoài An.
